@@ -1,0 +1,23 @@
+.user-container {
+    border: 1px solid grey;
+    padding: 20px;
+    width: 420px;
+    .user-item {
+        border-bottom: 1px solid green;
+        margin: 10px;
+        padding: 10px 0;
+        
+        .btn {
+            margin: 10px;
+            background: transparent;
+            padding: 5px 10px;
+            border: none;
+            text-align: right;
+            a {
+                text-decoration: none;
+                font-style: italic;
+                color: green;
+            }
+        }
+    }
+}
